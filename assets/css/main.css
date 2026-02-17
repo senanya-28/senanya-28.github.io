@@ -3220,8 +3220,7 @@ input, select, textarea {
 
 	}
 #header {
-    background-image: url("../../images/overlay.png"), url("../../images/background-cellss.png") !important;
-    background-size: 100% 100% !important;
-    background-position: center !important;
-    background-attachment: fixed;
+    background-image: url("../../images/overlay.png"), url("../../images/background-cells.png") !important;
+    background-size: cover;
+    background-position: center;
 }
