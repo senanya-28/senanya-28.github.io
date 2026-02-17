@@ -3243,12 +3243,11 @@ input, select, textarea {
 /* Massive and Bold Name */
 #header h1 {
     color: #ffffff !important;
-    font-size: 3.5em !important;
+    font-size: 3.0em !important;
     font-weight: 950 !important;
     text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.9) !important;
     letter-spacing: -1px !important;
 }
-
 #header nav {
     display: none !important;
 }
