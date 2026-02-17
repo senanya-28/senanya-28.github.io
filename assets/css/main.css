@@ -3240,11 +3240,11 @@ input, select, textarea {
     border: 5px solid rgba(255, 255, 255, 0.3) !important;
 }
 
-/* 1. Much Bigger and Bolder Name */
+/* Massive and Bold Name */
 #header h1 {
     color: #ffffff !important;
-    font-size: 3.5em !important; /* Increased from 2.5em */
-    font-weight: 950 !important; /* Maximum thickness */
+    font-size: 3.5em !important;
+    font-weight: 950 !important;
     text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.9) !important;
     letter-spacing: -1px !important;
 }
@@ -3266,9 +3266,9 @@ input, select, textarea {
     color: #2c2c2c !important; 
 }
 
-/* 2. Darker Separation Lines */
+/* Darker Separation Lines */
 section, header + section, #main > section {
-    border-top: solid 2px #bbbbbb !important; /* Darker ash line */
+    border-top: solid 2px #bbbbbb !important;
     padding-top: 3em !important;
     margin-top: 3em !important;
 }
@@ -3277,7 +3277,7 @@ section, header + section, #main > section {
     font-size: 2.1em !important;
     font-weight: 800 !important;
     color: #444444 !important;
-    margin-top: 1em !important; /* Adjusted for new line spacing */
+    margin-top: 1em !important;
     margin-bottom: 1em !important;
 }
 
