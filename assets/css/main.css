@@ -3224,3 +3224,10 @@ input, select, textarea {
     background-size: cover;
     background-position: center;
 }
+#header h1 {
+    color: #ffffff !important;
+    font-size: 1.5em !important;
+    font-weight: 800 !important;
+    line-height: 1.2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
