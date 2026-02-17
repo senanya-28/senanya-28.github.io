@@ -3221,13 +3221,13 @@ input, select, textarea {
 	}
 #header {
     background-image: url("../../images/overlay.png"), url("../../images/background-cells.png") !important;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% 100% !important;
+    background-position: center !important;
 }
+
 #header h1 {
     color: #ffffff !important;
-    font-size: 1.5em !important;
-    font-weight: 800 !important;
-    line-height: 1.2em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2.2em !important;
+    font-weight: 900 !important;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7) !important;
 }
