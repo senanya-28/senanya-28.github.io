@@ -3220,7 +3220,7 @@ input, select, textarea {
 
 	}
 #header {
-    background-image: url("../../images/overlay.png"), url("../../images/background-cellss.png") !important;
+    background-image: url("../../images/overlay.png"), url("../../images/background-cells.png") !important;
     background-size: 100% 100% !important;
     background-position: center !important;
 }
@@ -3246,11 +3246,11 @@ input, select, textarea {
 #main p {
     font-size: 1.3em !important;
     line-height: 1.8em !important;
-    color: #444444 !important;
+    color: #2c2c2c !important; /* Darker ash for "About Me" para */
 }
 
-/* Educational Qualifications Heading */
-#main .education-heading {
+/* Section Headings (Education, Skills, Hobbies) */
+.education-heading, .skills-heading, .hobbies-heading {
     font-size: 2.1em !important;
     font-weight: 800 !important;
     color: #444444 !important;
@@ -3258,8 +3258,8 @@ input, select, textarea {
     margin-bottom: 1em !important;
 }
 
-/* Aligning the boxes side-by-side */
-.education-container {
+/* Horizontal Containers */
+.education-container, .skills-hobbies-container {
     display: flex !important;
     flex-direction: row !important;
     justify-content: space-between !important;
@@ -3267,23 +3267,30 @@ input, select, textarea {
     align-items: flex-start !important;
 }
 
-.education-box {
+.education-box, .skills-box, .hobbies-box {
     flex: 1 !important;
 }
 
-/* Secondary & Higher Education Sub-headings */
-#main .education-sub {
+/* Sub-headings */
+.education-sub, .skills-sub, .hobbies-sub {
     font-size: 1.1em !important;
     font-weight: 700 !important;
     color: #666666 !important;
     text-transform: uppercase;
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0.8em !important;
 }
 
-/* Details text (Musaeus, SLIIT, Subjects) */
-#main .education-details {
-    font-size: 0.95em !important;
-    color: #777777 !important;
-    white-space: nowrap !important; 
-    margin-bottom: 0.3em !important;
+/* Larger Bullet Points and Education Details */
+.education-details, #main ul li {
+    font-size: 1.15em !important; /* Increased from original 0.95em */
+    color: #444444 !important;
+    margin-bottom: 0.6em !important;
+}
+
+#main ul {
+    padding-left: 1.5em !important; /* More breathing room for lists */
+}
+
+.education-details {
+    white-space: nowrap !important;
 }
