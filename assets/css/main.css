@@ -3220,9 +3220,24 @@ input, select, textarea {
 
 	}
 #header {
-    background-image: url("../../images/overlay.png"), url("../../images/background-cellss.png") !important;
+    background-image: url("../../images/overlay.png"), url("../../images/background-cells.png") !important;
     background-size: 100% 100% !important;
     background-position: center !important;
+    padding: 3em 0 !important;
+}
+
+/* 1. Increase Picture Size */
+#header .image.avatar {
+    width: 200px !important; 
+    height: 200px !important;
+    margin: 0 auto 1.5em auto !important;
+    display: block !important;
+}
+
+#header .image.avatar img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 100% !important;
 }
 
 #header h1 {
@@ -3246,10 +3261,9 @@ input, select, textarea {
 #main p {
     font-size: 1.3em !important;
     line-height: 1.8em !important;
-    color: #2c2c2c !important; /* Darker ash for "About Me" para */
+    color: #2c2c2c !important; 
 }
 
-/* Section Headings (Education, Skills, Hobbies) */
 .education-heading, .skills-heading, .hobbies-heading {
     font-size: 2.1em !important;
     font-weight: 800 !important;
@@ -3258,12 +3272,12 @@ input, select, textarea {
     margin-bottom: 1em !important;
 }
 
-/* Horizontal Containers */
+/* 2. Increase Space Between Sections */
 .education-container, .skills-hobbies-container {
     display: flex !important;
     flex-direction: row !important;
     justify-content: space-between !important;
-    gap: 40px !important;
+    gap: 80px !important; /* Increased gap from 40px to 80px */
     align-items: flex-start !important;
 }
 
@@ -3271,24 +3285,24 @@ input, select, textarea {
     flex: 1 !important;
 }
 
-/* Sub-headings */
+/* 3. Make Secondary & Higher Education Sub-headings Bigger */
 .education-sub, .skills-sub, .hobbies-sub {
-    font-size: 1.1em !important;
-    font-weight: 700 !important;
-    color: #666666 !important;
+    font-size: 1.4em !important; /* Increased from 1.1em */
+    font-weight: 800 !important;
+    color: #555555 !important;
     text-transform: uppercase;
     margin-bottom: 0.8em !important;
 }
 
-/* Larger Bullet Points and Education Details */
+/* 4. Larger Bullet Points and Education Details */
 .education-details, #main ul li {
-    font-size: 1.15em !important; /* Increased from original 0.95em */
+    font-size: 1.25em !important; /* Increased from 1.15em */
     color: #444444 !important;
     margin-bottom: 0.6em !important;
 }
 
 #main ul {
-    padding-left: 1.5em !important; /* More breathing room for lists */
+    padding-left: 1.5em !important;
 }
 
 .education-details {
