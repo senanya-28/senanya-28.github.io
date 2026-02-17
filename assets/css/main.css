@@ -3223,20 +3223,6 @@ input, select, textarea {
     background-image: url("../../images/overlay.png"), url("../../images/background-cellss.png") !important;
     background-size: 100% 100% !important;
     background-position: center !important;
-    padding: 3em 0 !important;
-}
-
-#header .image.avatar {
-    width: 180px !important; 
-    height: 180px !important;
-    margin: 0 auto 1.5em auto !important;
-    display: block !important;
-}
-
-#header .image.avatar img {
-    width: 100% !important;
-    height: 100% !important;
-    border-radius: 100% !important;
 }
 
 #header h1 {
@@ -3260,10 +3246,10 @@ input, select, textarea {
 #main p {
     font-size: 1.3em !important;
     line-height: 1.8em !important;
-    color: #2c2c2c !important; 
+    color: #2c2c2c !important; /* Darker ash for "About Me" para */
 }
 
-/* Section Headings */
+/* Section Headings (Education, Skills, Hobbies) */
 .education-heading, .skills-heading, .hobbies-heading {
     font-size: 2.1em !important;
     font-weight: 800 !important;
@@ -3296,13 +3282,13 @@ input, select, textarea {
 
 /* Larger Bullet Points and Education Details */
 .education-details, #main ul li {
-    font-size: 1.15em !important;
+    font-size: 1.15em !important; /* Increased from original 0.95em */
     color: #444444 !important;
     margin-bottom: 0.6em !important;
 }
 
 #main ul {
-    padding-left: 1.5em !important;
+    padding-left: 1.5em !important; /* More breathing room for lists */
 }
 
 .education-details {
