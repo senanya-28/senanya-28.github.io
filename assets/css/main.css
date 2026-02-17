@@ -3228,8 +3228,8 @@ input, select, textarea {
 
 /* Much Larger Profile Picture */
 #header .image.avatar {
-    width: 250px !important; /* Significantly increased from 200px */
-    height: 250px !important;
+    width: 300px !important; /* Significantly increased from 200px */
+    height: 300px !important;
     margin: 0 auto 2em auto !important;
     display: block !important;
 }
