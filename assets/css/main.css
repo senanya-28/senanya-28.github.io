@@ -3219,3 +3219,8 @@ input, select, textarea {
 			}
 
 	}
+#header {
+    background-image: url("../../images/overlay.png"), url("../../images/background-cells.png") !important;
+    background-size: cover;
+    background-position: center;
+} 
