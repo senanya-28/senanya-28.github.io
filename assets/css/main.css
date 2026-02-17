@@ -3220,17 +3220,17 @@ input, select, textarea {
 
 	}
 #header {
-    background-image: url("../../images/overlay.png"), url("../../images/background-cells.png") !important;
+    background-image: url("../../images/overlay.png"), url("../../images/background-cellss.png") !important;
     background-size: 100% 100% !important;
     background-position: center !important;
     padding: 3em 0 !important;
 }
 
-/* 1. Increase Picture Size */
+/* Much Larger Profile Picture */
 #header .image.avatar {
-    width: 200px !important; 
-    height: 200px !important;
-    margin: 0 auto 1.5em auto !important;
+    width: 250px !important; /* Significantly increased from 200px */
+    height: 250px !important;
+    margin: 0 auto 2em auto !important;
     display: block !important;
 }
 
