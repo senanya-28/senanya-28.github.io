@@ -3234,3 +3234,15 @@ input, select, textarea {
 #header nav {
     display: none !important;
 }
+#main h2 {
+    font-size: 2.5em !important;
+    font-weight: 900 !important;
+    color: #333333 !important;
+    margin-bottom: 0.8em !important;
+}
+
+#main p {
+    font-size: 1.3em !important;
+    line-height: 1.8em !important;
+    color: #444444 !important;
+}
