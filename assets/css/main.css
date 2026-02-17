@@ -3223,7 +3223,7 @@ input, select, textarea {
     background-image: url("../../images/overlay.png"), url("../../images/background-cellss.png") !important;
     background-size: 100% 100% !important;
     background-position: center !important;
-    padding: 3em 0 !important;
+    padding: 4em 0 !important; /* Increased padding for the larger image */
 }
 
 /* Much Larger Profile Picture */
@@ -3238,6 +3238,7 @@ input, select, textarea {
     width: 100% !important;
     height: 100% !important;
     border-radius: 100% !important;
+    border: 4px solid rgba(255, 255, 255, 0.2) !important; /* Subtle border for better look */
 }
 
 #header h1 {
@@ -3272,12 +3273,12 @@ input, select, textarea {
     margin-bottom: 1em !important;
 }
 
-/* 2. Increase Space Between Sections */
+/* Wide Gap Between Sections */
 .education-container, .skills-hobbies-container {
     display: flex !important;
     flex-direction: row !important;
     justify-content: space-between !important;
-    gap: 80px !important; /* Increased gap from 40px to 80px */
+    gap: 100px !important; /* Increased to 100px for even more space */
     align-items: flex-start !important;
 }
 
@@ -3285,20 +3286,20 @@ input, select, textarea {
     flex: 1 !important;
 }
 
-/* 3. Make Secondary & Higher Education Sub-headings Bigger */
+/* Big Sub-headings */
 .education-sub, .skills-sub, .hobbies-sub {
-    font-size: 1.4em !important; /* Increased from 1.1em */
+    font-size: 1.45em !important; 
     font-weight: 800 !important;
     color: #555555 !important;
     text-transform: uppercase;
     margin-bottom: 0.8em !important;
 }
 
-/* 4. Larger Bullet Points and Education Details */
+/* Large Bullet Points and Details */
 .education-details, #main ul li {
-    font-size: 1.25em !important; /* Increased from 1.15em */
+    font-size: 1.3em !important; /* Increased further for readability */
     color: #444444 !important;
-    margin-bottom: 0.6em !important;
+    margin-bottom: 0.7em !important;
 }
 
 #main ul {
