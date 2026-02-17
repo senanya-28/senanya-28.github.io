@@ -3231,9 +3231,11 @@ input, select, textarea {
     font-weight: 900 !important;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7) !important;
 }
+
 #header nav {
     display: none !important;
 }
+
 #main h2 {
     font-size: 2.5em !important;
     font-weight: 900 !important;
@@ -3246,12 +3248,27 @@ input, select, textarea {
     line-height: 1.8em !important;
     color: #444444 !important;
 }
+
 /* Educational Qualifications Heading */
 #main .education-heading {
-    font-size: 2.2em !important;
+    font-size: 2.1em !important;
     font-weight: 800 !important;
     color: #444444 !important;
     margin-top: 2em !important;
+    margin-bottom: 1em !important;
+}
+
+/* Aligning the boxes side-by-side */
+.education-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 40px !important;
+    align-items: flex-start !important;
+}
+
+.education-box {
+    flex: 1 !important;
 }
 
 /* Secondary & Higher Education Sub-headings */
@@ -3267,12 +3284,6 @@ input, select, textarea {
 #main .education-details {
     font-size: 0.95em !important;
     color: #777777 !important;
-    white-space: nowrap; /* Keeps subjects on one line */
-}
-
-/* Aligning the boxes side-by-side */
-.education-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    white-space: nowrap !important; 
+    margin-bottom: 0.3em !important;
 }
